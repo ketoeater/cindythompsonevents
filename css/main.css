@@ -1086,7 +1086,7 @@ body {
 @-ms-viewport {
   width: device-width; }
 body {
-  background: #2e3842; }
+  background: #000; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -2491,6 +2491,15 @@ body.is-mobile #main > header {
       padding: 3em 2em 1em 2em ; } }
 
 /* Landing */
+
+body.landing #page-wrapper .ctlogo {
+  max-width: 40%;
+}
+
+body.is-mobile.landing #page-wrapper .ctlogo {
+  max-width: 55%;
+}
+
 body.landing #page-wrapper {
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
@@ -2505,8 +2514,8 @@ body.landing #footer {
   background-color: rgba(29, 36, 42, 0.9); }
 
 body.is-mobile.landing #page-wrapper {
-  background: url("/images/bannersmall.jpg") -400px 50px no-repeat; 
-  background-size: 1300px;
+  background: url("/images/bannersmall.jpg") top center no-repeat; 
+  background-size: 1000px;
 }
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
