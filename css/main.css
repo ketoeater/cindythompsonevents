@@ -2499,7 +2499,7 @@ body.landing #page-wrapper {
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+/*  background-size: cover; */
   padding-top: 0; }
 body.landing #footer {
   background-color: rgba(29, 36, 42, 0.9); }
