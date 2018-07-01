@@ -1496,17 +1496,17 @@ input[type="radio"] + label:before {
   .image img {
     border-radius: 3px;
     display: block; }
-  .image.lleft {
+  .image.left {
     float: left;
     margin: 0 2em 2em 0;
     top: 0.25em; }
-  .image.rright {
+  .image.right {
     float: right;
     margin: 0 0 2em 2em;
     top: 0.25em; }
-  .image.lleft, .image.rright {
+  .image.left, .image.right {
     max-width: 40%; }
-    .image.lleft img, .image.rright img {
+    .image.left img, .image.right img {
       width: 100%; }
   .image.fit {
     display: block;
