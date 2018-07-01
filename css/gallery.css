@@ -1,4 +1,4 @@
-.gal header { 
+.header { 
   padding: .5vw;
   font-size: 0;
   display: -ms-flexbox;
@@ -9,19 +9,19 @@
   display: -webkit-box;
   display: flex;
 }
-.gal header div { 
+.header div { 
   -webkit-box-flex: auto;
   -ms-flex: auto;
   flex: auto; 
   width: 200px; 
   margin: .5vw; 
 }
-.gal header div img { 
+.header div img { 
   width: 100%; 
   height: auto; 
 }
 @media screen and (max-width: 400px) {
-  .gal header div { margin: 0; }
-  header { padding: 0; }
+  .header div { margin: 0; }
+  .header { padding: 0; }
   
 }
